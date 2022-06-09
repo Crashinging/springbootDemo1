@@ -8,6 +8,7 @@ public class Hello {
     @RequestMapping("/hello1")
     public void hello(){
         System.out.println("say hello");
+        System.out.println("hello");
     }
 
     @RequestMapping("/say")
